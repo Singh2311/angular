@@ -1,0 +1,28 @@
+div.top-header{
+    
+    // align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.header{
+    border: 1px solid green;
+    background-color: aqua;
+    float: left;
+    width: 600px;
+  padding: 8px;
+}
+label{
+    display: block;
+    margin: 0;
+}
+input{
+    width: 580px;
+}
+form button{
+    padding:4px 10px;
+    float: right;
+    background-color: green;
+    border: none;
+    margin-top: 4px;
+}

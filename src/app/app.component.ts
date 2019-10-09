@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-hello-world';
+addArticle(title:HTMLInputElement,link:HTMLInputElement){
+  console.log(`article is ${title.value} and link ${link.value}`);
+}
 }

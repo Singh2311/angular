@@ -1,3 +1,17 @@
-<h1>{{title}}</h1>
+<!-- <h1>{{title}}</h1>
 <app-hello-world></app-hello-world> 
-<app-user-list></app-user-list>
+<app-user-list></app-user-list> -->
+<div class="top-header">
+<form class="header">
+<h3>Add a link</h3>
+<div>
+  <label for="title">Title:</label>
+  <input name="title" #newtitle>
+</div>
+<div>
+  <label for="link">LInk</label>
+  <input name="link" #newlink>
+</div>
+<button type="button" (click)="addArticle(newtitle,newlink)" >Submit Link</button>
+</form>
+</div>
